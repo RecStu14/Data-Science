@@ -50,7 +50,7 @@ def generate_try2(numRows):
     def calc_sum(prevEle):
         listSum = []
         for j in range(0,len(prevEle)-1):
-                result = prevElement[j] + prevElement[j+1]
+                result = prevEle[j] + prevEle[j+1]
                 listSum.append(result)
         return listSum
 
